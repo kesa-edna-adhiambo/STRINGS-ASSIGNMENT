@@ -17,14 +17,10 @@ console.log(story.match('brown').length)
 
 //question4: Finding words from strings.
 let string1 = "The pupils are reading in the library";
-let wordToFind = "are";
-let indexOfAre = string1.indexOf({wordToFind});
-console.log({indexOfAre});
+console.log(string1.indexOf('are'));
 
 let string2 = "The child was sitting on the table before it fell";
-let secondToFind = "sitting";
-let indexOfSitting = string2.indexOf({secondToFind});
-console.log({indexOfSitting});
+console.log(string2.indexOf('sitting'));
 
 //question5: Converting strings into 'Uppercase', 'Lowercase' and 'Titlecase'.
 let firstWord = "wonderful";
